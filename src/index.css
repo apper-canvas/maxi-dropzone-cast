@@ -44,12 +44,10 @@
   .progress-bar {
     @apply w-full bg-gray-200 rounded-full h-2 overflow-hidden;
   }
-  
-  .progress-fill {
+.progress-fill {
     @apply h-full rounded-full transition-all duration-300 ease-out;
-    background: linear-gradient(90deg, #5B5BF6 0%, #8B5CF6 100%);
+    background: linear-gradient(90deg, #10B981 0%, #059669 100%);
   }
-  
   .status-badge {
     @apply inline-flex items-center px-2 py-1 rounded-full text-xs font-medium transition-all duration-200;
   }
